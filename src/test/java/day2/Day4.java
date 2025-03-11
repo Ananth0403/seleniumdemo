@@ -13,6 +13,8 @@ public class Day4 {
 		driver.switchTo().frame(driver.findElement(By.xpath("//frame[@src='frame_5.html']"))).findElement(By.linkText("https://a9t9.com")).click();
 		System.out.println(driver.getTitle()); 
 		System.out.println(driver.switchTo().defaultContent().getTitle());
+		//adding new line
+		
 	}
 
 }
